@@ -1,0 +1,30 @@
+Package: SocialGrowthIndex
+Type: Project
+Title: Social Growth Index for Italian Municipalities
+Version: 1.0.0
+Authors@R: person("Research", "Team", email = "research@example.com", role = c("aut", "cre"))
+Description: A composite measure of socioeconomic resilience for Italian municipalities (2010-2022).
+    Integrates FRK-based spatial downscaling of GDP with Copeland ranking over GDP density,
+    GDP per capita, and population density. Includes code and pipelines for reproducible analysis.
+License: MIT
+Encoding: UTF-8
+Depends:
+    R (>= 4.0.0)
+Imports:
+    dplyr (>= 1.0.0),
+    tidyr (>= 1.0.0),
+    readr (>= 2.0.0),
+    readxl (>= 1.0.0),
+    sf (>= 1.0.0),
+    FRK (>= 2.0.0),
+    ggplot2 (>= 3.3.0),
+    tmap (>= 3.3.0),
+    viridis (>= 0.6.0),
+    scales (>= 1.2.0),
+    corrplot (>= 0.92),
+    knitr (>= 1.40),
+    httr (>= 1.4.0),
+    jsonlite (>= 1.8.0)
+Suggests:
+    rmarkdown,
+    testthat

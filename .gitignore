@@ -1,0 +1,37 @@
+# R specific files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Data files (too large for git)
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/README.md
+
+# Processed data (generated)
+data/processed/*
+!data/processed/.gitkeep
+
+# Results (generated)
+results/figures/*
+results/tables/*
+results/maps/*
+!results/figures/.gitkeep
+!results/tables/.gitkeep
+!results/maps/.gitkeep
+
+# renv files
+renv/library/
+renv/staging/
+renv/local/
+
+# Temporary files
+*.tmp
+*~
+.DS_Store
+Thumbs.db
+
+# System files
+.Rproj.user/
