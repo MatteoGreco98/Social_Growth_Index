@@ -4,7 +4,7 @@ library(sf)
 library(dplyr)
 library(purrr)
 
-GDP_Municipalities_10_22 <- st_read('Social_Growth_Index/Data/GDP_Municipalities_10_22.gpkg')
+GDP_Municipalities_10_22 <- st_read('Social_Growth_Index/Output/GDP_Municipalities_10_22.gpkg')
 
 copeland_with_rank_2 <- function(data,
                                  id_cols = c("codice_comune", "anno")) {
